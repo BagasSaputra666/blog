@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BagasDev - What is Internet & How it Works</title>
+    <link rel="stylesheet" href="/src/app.css">
+    <script defer type="module" src="/src/app.js"></script>
+    <link rel="stylesheet" href="/src/assets/css/normalize.css">
+    <link rel="stylesheet" href="/src/assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header id="home">
+        <!-- Nav Start -->
+        <nav>
+            <div class="brand_container">
+                <a href="#" class="brand_name">
+                    <span>&lt;</span>
+                    BagasDev
+                    <span>/&gt;</span>
+                </a>
+            </div>
+            <div class="hamburger_container">
+                <svg viewBox="0 0 24 24" fill="#eeee" xmlns="http://www.w3.org/2000/svg" class="hamburger">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M4 7L7 7M20 7L11 7" stroke="#eeee" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M20 17H17M4 17L13 17" stroke="#eeee" stroke-width="2" stroke-linecap="round">
+                        </path>
+                        <path d="M4 12H7L20 12" stroke="#eeee" stroke-width="2" stroke-linecap="round"></path>
+                    </g>
+                </svg>
+            </div>
+            <ul class="nav_list">
+                <li><a class="nav_link" href="#home">Home</a></li>
+                <li><a class="nav_link" href="#articles">Articles</a></li>
+                <li><a class="nav_link" target="_blank"
+                        href="https://www.dicoding.com/users/bagas_saputra666/academies">Profile</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Nav End -->
+
+        <!-- Hero Start -->
+        <div class="hero_container">
+            <div>personal tech blog</div>
+            <h1 class="title">Just notes from a<span> regular developer</span></h1>
+            <p class="tagline">Always learning, always adapting — because that's how developers survive. Just honest
+                write-ups from someone figuring it out one commit at a time.</p>
+            <a href="mailto:bagasoneputra@gmail.com" class="btn">Reach Out</a>
+        </div>
+        <!-- Hero End -->
+
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+        <!-- Content Start -->
+        <div id="content">
+            <article id="articles">
+                <div class="marker">
+                    <p class="category">Learning Notes</p>
+                    <p class="date">21 April 2026 <span>•</span> 6 Min Read</p>
+                </div>
+                <h2 class="sub_title">Understanding the Internet: A Developer's Perspective</h2>
+                <p>
+                    Sebagai seorang developer penting untuk memahami <b>apa itu Internet dan bagaimana cara
+                        kerja-nya</b>,
+                    karena itu merupakan tempat dari sebagian besar aplikasi yang ada. Dengan pemahaman yang kuat
+                    mengenai Internet, kita sebagai developer dapat membangun aplikasi yang tidak hanya functional, tapi
+                    juga accessible dan reliable dengan memanfaatkan kemampuan Internet yang bisa menjangkau banyak
+                    orang.
+                    Note ini akan membahas secara mendasar <b>apa itu Internet, bagaimana cara kerja-nya, dan apa saja
+                        teknologi yang terlibat dibalik-nya</b> dengan santai dan mudah dipahami.
+                </p>
+                <h3 class="sub_sub_title">Introduction to the Internet</h3>
+                <p>
+                    Sebelum membahas <b>apa itu Internet</b>, kita perlu memahami terlebih dahulu apa yang dimaksud
+                    dengan
+                    <i>Network</i>, atau Jaringan merupakan sekumpulan komputer atau perangkat yang saling terhubung
+                    satu
+                    sama lain, misal-nya kita memiliki laptop atau smartphone yang terhubung dengan perangkat lain,
+                    entah langsung atau melalui <b>Alat Penghubung Jaringan</b> seperti Router, Modem, atau Switch.
+                    Perangkat
+                    kita yang saling terhubung satu sama lain ini membentuk yang dinamakan Network atau Jaringan.
+                </p>
+                <figure>
+                    <img src="/src/assets/images/network.png" alt="Network Illustration">
+                    <figcaption>Network Illustration</figcaption>
+                </figure>
+                <p>
+                    Ketika setiap Networks yang ada diseluruh dunia ini terhubung <b>"satu sama lain"</b>, mulai dari
+                    punya
+                    kita, saudara, teman dan orang lain, maka keterhubungan antar Jaringan-Jaringan ini-lah, membentuk
+                    apa yang dinamakan Internet.
+                </p>
+                <h3 class="sub_sub_title">Internet Definition (Technically)</h3>
+                <p>
+                    Internet adalah <b>Jaringan Global</b> yang menghubungkan berbagai perangkat seperti Server,
+                    Desktop,
+                    Laptop, Tablet, Smartphone dan perangkat lain-nya melalui <b>Serangkaian Protokol Terstandar</b>
+                    seperti
+                    HTTP/S, TCP/IP, SSL/TLS, dll, yang memungkinkan pertukaran informasi secara fast and reliable di
+                    seluruh dunia. Internet disebut juga sebagai <b>Networks of networks</b>.
+                </p>
+                <figure>
+                    <img src="/src/assets/images/internet.png" alt="Internet Illustration">
+                    <figcaption>Internet Illustration</figcaption>
+                </figure>
+                <p>Internet memiliki karakteristik utama seperti berikut:</p>
+                <ul>
+                    <li>
+                        <b>Global</b> — Internet literally menjangkau seluruh dunia. Miliaran perangkat dari berbagai
+                        benua
+                        bisa saling terhubung tanpa batasan geografis.
+                    </li>
+                    <li>
+                        <b>Decentralized</b> — Ga ada satu pun organisasi atau otoritas yang <b>"pegang kendali"</b>
+                        internet.
+                        Setiap
+                        bagian-nya dikelola oleh berbagai entitas yang berbeda — Maka-nya internet sulit untuk
+                        dimatikan
+                        secara
+                        keseluruhan.
+                    </li>
+                    <li>
+                        <b>Packet-Switched</b> — Data yang dikirim lewat internet dipecah jadi potongan-potongan kecil
+                        yang
+                        disebut packet, dikirim secara independen, dan disusun ulang saat nyampe di tujuan.
+                    </li>
+                    <li>
+                        <b>Open Standards</b> — Internet dibangun di atas protokol dan standar yang terbuka dan bisa
+                        diakses
+                        siapa aja. Maka-nya perangkat dari brand yang berbeda tetap bisa saling berkomunikasi.
+                    </li>
+                </ul>
+                <p>
+                    Internet telah menjadi bagian esensial dari kehidupan modern, digunakan oleh miliaran orang untuk
+                    mengakses informasi, berkomunikasi satu sama lain, menjalankan bisnis, dan banyak lagi.
+                    Sebagai developer sangat penting untuk memiliki pemahaman dasar yang kuat mengenai bagaimana
+                    internet bekerja dan berbagai teknologi serta protokol yang mendasari-nya.
+                </p>
+                <h3 class="sub_sub_title">How the Internet Works an Overview</h3>
+                <p>
+                    Pada <b>High-Level</b> internet bekerja dengan menghubungkan perangkat dan sistem komputer
+                    menggunakan
+                    serangkaian protokol terstandar. Protokol ini menentukan bagaimana pertukaran informasi antar
+                    perangkat dan memastikan data-nya ditransmisi secara reliable dan secure.
+                    Inti dari internet adalah jaringan global yang saling terhubung, dimana router bertanggung jawab
+                    dalam mengarahkan <i>Traffic</i> atau Lalu Lintas antar perangkat yang memiliki sistem berbeda
+                    ketika
+                    bertukar informasi atau data.
+                </p>
+                <div class="note">
+                    Note: Router merupakan komputer khusus untuk mengirimkan packet data dan mengatur lalu lintas
+                    jaringan.
+                </div>
+                <p>
+                    Ketika kita mengirim pesan melalui internet, pesan tersebut akan dipecah menjadi potongan-potongan
+                    kecil data yang disebut <b>Packet Data</b>. Router akan memeriksa alamat tujuan dari packet yang
+                    disebut <i>IP Address</i> lalu mengirimkan packet tersebut ke router selanjut-nya yang mengarah ke
+                    IP Address
+                    yang
+                    sesuai.
+                    Dimana jalur terbaik yang packet lewati ditentukan oleh <i>Table Routing</i> atau biasa disebut juga
+                    <i>Border
+                        Gateway Protocol (BGP)</i>. Proses ini terus dilakukan pada setiap router yang dilewati packet
+                    sampai
+                    packet-nya mencapai tempat tujuan-nya.
+                </p>
+                <figure>
+                    <img src="/src/assets/images/data-transmission.jpg" alt="Data Transimission Illustration">
+                    <figcaption>Data Transimission Illustration</figcaption>
+                </figure>
+                <p>
+                    Untuk memastikan packet-nya terkirim dan diterima dengan benar, Internet menggunakan berbagai
+                    protokol termasuk <b>Internet Protocol (IP)</b> dan <b>Transmission Control Protocol (TCP)</b>. IP
+                    bertanggung
+                    jawab dalam meng-rutekan packet ke tempat tujuan-nya, sementara TCP memastikan packet-nya dikirim
+                    secara reliable dan mengurutkan-nya kembali dalam urutan yang benar ketika sampai di tempat tujuan.
+
+                    Menarik-nya, semua proses ini — mulai dari mengirim packet, meng-rutekan data, sampai memastikan
+                    koneksi-nya aman — itu gak terjadi dalam satu lapisan saja. Internet sebener-nya bekerja dalam
+                    arsitektur berlapis yang disebut OSI Layer, dimana setiap lapisan punya tanggung jawab-nya
+                    masing-masing.
+                </p>
+                <p>
+                    Secara garis besar ada 7 lapisan: Physical, Data-Link, Network, Transport, Session, Presentation,
+                    dan Application. Masing-masing lapisan ini bekerja sama secara berurutan setiap kali data dikirim
+                    atau diterima — dari sinyal fisik di kabel sampai aplikasi yang kita pakai sehari-hari seperti
+                    browser atau email client.
+
+                    Dan semua lapisan ini, dari fisik sampai aplikasi, bekerja bareng setiap kali kita ngetik sebuah URL
+                    dan tekan Enter — dalam hitungan milidetik.
+                </p>
+                <h3 class="sub_sub_title">The Role of Protocols</h3>
+                <p>
+                    Semua yang sudah kita bahas tadi — dari packet data, routing, sampai cara internet menghubungkan
+                    miliaran perangkat di seluruh dunia — itu semua bisa terjadi karena ada yang nama-nya
+                    <b>protokol</b>.
+
+                    Protokol itu simpel-nya adalah aturan yang disepakati bersama tentang bagaimana data dikirim dan
+                    diterima. Tanpa protokol, perangkat dari manufacturer yang berbeda ga akan bisa <b>"ngobrol atau
+                        berkomunikasi"</b> satu sama
+                    lain — kayak dua orang yang lagi berbicara dengan bahasa yang berbeda.
+                </p>
+                <figure>
+                    <img src="/src/assets/images/protocol.png" alt="Protocols Illustration">
+                    <figcaption>Protocols Illustration</figcaption>
+                </figure>
+                <p>
+                    Ada beberapa protokol utama yang perlu kita tau:
+                </p>
+                <ul>
+                    <li>
+                        <b>IP (Internet Protocol)</b> — bertanggung jawab ngasih alamat ke setiap perangkat di jaringan
+                        dan
+                        memastikan packet data dikirim ke tujuan yang benar.
+                    </li>
+                    <li>
+                        <b>TCP (Transmission Control Protocol)</b> — memastikan data yang dikirim nyampe dengan lengkap
+                        dan
+                        urut.
+                        Kalau ada packet yang hilang di jalan, TCP yang minta pengiriman ulang.
+                    </li>
+                    <li>
+                        <b>UDP (User Datagram Protocol)</b> — mirip dengan TCP tapi lebih cepat karena ga nunggu
+                        konfirmasi. Cocok
+                        buat hal yang butuh kecepatan kayak video call atau gaming, dimana sedikit kehilangan data masih
+                        bisa ditoleransi.
+                    </li>
+                    <li>
+                        <b>DNS (Domain Name System)</b> — translator antara nama domain yang manusia baca kayak
+                        google.com
+                        dengan IP address yang mesin baca kayak 142.250.4.100.
+                    </li>
+                    <li>
+                        <b>HTTP & HTTPS</b> — protokol yang digunakan atau dipakai browser kita untuk meminta dan
+                        menerima konten dari server.
+                        HTTPS adalah versi aman-nya, karena data-nya dienkripsi pake SSL/TLS sebelum dikirim.
+                    </li>
+                </ul>
+                <p>
+                    Memahami internet bukan cuma soal tau istilah-istilah-nya — tapi soal mengerti fondasi dari hampir
+                    semua aplikasi yang kita bangun sebagai developer. Setiap kali kita menulis kode yang fetch data
+                    dari API,
+                    upload file ke server, atau bahkan sekadar buka website, semua itu mengandalkan mekanisme yang sudah
+                    kita bahas tadi.
+                </p>
+                <p>
+                    Gue sendiri merasa pemahaman ini mengubah cara gue berpikir terutama ketika menulis kode — bukan
+                    cuma <b>"ini works"</b>
+                    tapi <b>"kenapa ini works"</b>. Dan menurut gue, itu yang membedakan developer yang cuma bisa nulis
+                    kode
+                    dengan
+                    developer yang beneran ngerti apa yang dia lakukan.
+
+                    Semoga note ini bermanfaat, dan kalau ada yang kurang tepat atau mau didiskusikan, gue terbuka
+                    banget
+                    buat feedback yang bisa dikirim ke akun gmail, github atau instagram gua, atau sekedar mau "say
+                    hello" pun gak masalah,
+                    feel free aja, karena disini <b>kita belajar dan bertumbuh bareng-bareng</b>.
+                </p>
+            </article>
+        </div>
+        <!-- Content End -->
+
+        <!-- Aside Start -->
+        <aside class="profile_container">
+            <div class="profile">
+                <img src="/src//assets/images/profile(1).png" alt="Bagas Saputra Profile Picture">
+            </div>
+            <h2 class="sub_title">Bagas Saputra</h2>
+            <p class="role">Self-Taught Dev</p>
+            <p>Just an ordinary developer who is enthusiastic about programming, especially the ability of
+                programming
+                to allow one to build and control their world according to their creativity and programming
+                logic.
+            </p>
+        </aside>
+        <!-- Aside End -->
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <ul>
+            <li><a href="mailto:bagasoneputra@gmail.com">Gmail</a></li>
+            <li><a href="https://github.com/Bagasone">GitHub</a></li>
+            <li><a href="https://www.instagram.com/bagaswanson/">Instagram</a></li>
+        </ul>
+        <p>&copy; 2026 Bagas Saputra. All rights reserved.</p>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>

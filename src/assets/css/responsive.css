@@ -1,0 +1,491 @@
+/* Tablet: 468px - 768px */
+@media screen and (min-width: 468px) {
+
+    /* Header */
+    header nav {
+        padding: var(--xxs-space) var(--lg-space);
+        z-index: 1;
+    }
+
+    /* Header Brand */
+    header .brand_name {
+        font-size: var(--lg-text);
+    }
+
+    header .brand_name span {
+        font-size: calc(var(--lg-text) + .25rem);
+    }
+
+    /* Header Hamburger */
+    header .hamburger_container {
+        display: none;
+    }
+
+    /* Header Navbar Menu */
+    header .nav_list {
+        flex-direction: row;
+        justify-content: end;
+
+        width: 100%;
+        height: auto;
+        padding: 0;
+
+        position: static;
+        z-index: 1;
+    }
+
+    header .nav_link {
+        margin: var(--sm-space) 0;
+        font-size: var(--sm-text);
+    }
+
+    header .nav_link::after {
+        height: 1.2px;
+    }
+
+
+    /* Header Hero */
+    header .hero_container {
+        padding: var(--xl-space) var(--lg-space);
+    }
+
+    header .hero_container div {
+        gap: var(--xxs-space);
+
+        margin-top: var(--sm-space);
+
+        font-size: var(--xs-text);
+    }
+
+    header .hero_container div::before {
+        width: var(--md-size);
+        height: .8px;
+    }
+
+    header .hero_container .title {
+        margin: var(--md-space) 0;
+        font-size: var(--xl-text);
+        line-height: 1.4;
+    }
+
+    header .hero_container .title span {
+        color: var(--accent);
+    }
+
+    header .hero_container .tagline {
+        margin: var(--sm-space) 0;
+        font-size: var(--sm-text);
+    }
+
+    header .hero_container .btn {
+        padding: var(--xs-space) var(--lg-space);
+        border: 1px solid var(--accent);
+        margin-top: var(--lg-space);
+
+        font-size: var(--sm-text);
+    }
+
+    /* Main */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: start;
+        gap: var(--lg-space);
+
+        font-size: var(--sm-text);
+        padding: var(--lg-space);
+    }
+
+    /* Content */
+    #content ul {
+        gap: var(--xs-space);
+    }
+
+    #content .marker {
+        gap: var(--sm-space);
+        margin-bottom: var(--sm-space);
+    }
+
+    #content .marker .category {
+        padding: var(--xs-space) var(--md-space);
+        border-radius: var(--sm-space);
+
+        font-size: var(--xxs-text);
+    }
+
+    #content .marker .date {
+        display: flex;
+        gap: var(--sm-space);
+        margin: 0 var(--sm-space);
+        font-size: var(--xxs-text);
+    }
+
+    #content .sub_title {
+        margin-top: var(--lg-space);
+        font-size: var(--xl-text);
+        line-height: 1.4;
+    }
+
+    #content .sub_sub_title {
+        margin-top: var(--lg-space);
+
+        font-size: var(--lg-text);
+        line-height: 1.4;
+    }
+
+    #content figure {
+        padding: var(--sm-space);
+    }
+
+    #content figure figcaption {
+        margin-top: var(--xs-space);
+        font-size: var(--xs-text);
+    }
+
+    #content .note {
+        padding: var(--sm-space) var(--lg-space);
+        border-radius: var(--xs-size);
+        border-left: 4px solid var(--primary);
+    }
+
+    /* Aside */
+    aside.profile_container {
+        padding: var(--lg-space);
+        font-size: var(--sm-text);
+    }
+
+    aside .profile {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: var(--md-space);
+    }
+
+    aside .profile::after {
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+    }
+
+    aside .role {
+        font-size: var(--xs-text);
+    }
+
+    /* Footer */
+    footer {
+        padding: var(--md-space);
+        font-size: var(--sm-text);
+    }
+}
+
+/* Laptop: 769px - 1024px */
+@media screen and (min-width: 769px) {
+
+    /* Header */
+    header nav {
+        padding: 0 var(--xl-space);
+    }
+
+    /* Header Brand */
+    header .brand_name {
+        font-size: var(--xl-text);
+    }
+
+    header .brand_name span {
+        font-size: calc(var(--xl-text) + .25rem);
+    }
+
+    /* Header Navbar Menu */
+    header .nav_list {
+        gap: var(--lg-space);
+    }
+
+    header .nav_link {
+        margin: 0;
+        font-size: var(--md-text);
+    }
+
+    header .nav_link::after {
+        height: 1.5px;
+    }
+
+
+    /* Header Hero */
+    header .hero_container {
+        padding: var(--xxl-size) var(--xl-space);
+        gap: 0;
+    }
+
+    header .hero_container div {
+        gap: var(--xs-space);
+        font-size: var(--sm-text);
+    }
+
+    header .hero_container div::before {
+        width: var(--lg-size);
+        height: 1px;
+    }
+
+    header .hero_container .title {
+        margin: var(--md-space) 0;
+        font-size: var(--xxl-text);
+        line-height: 1.4;
+    }
+
+    header .hero_container .tagline {
+        margin: var(--xs-space) 0;
+        font-size: var(--md-text);
+    }
+
+    header .hero_container .btn {
+        padding: var(--xs-space) var(--lg-space);
+        border: 1.5px solid var(--accent);
+        margin-top: var(--lg-space);
+
+        font-size: var(--md-text);
+    }
+
+    /* Main */
+    main {
+        display: grid;
+        grid-template-columns: 3fr 1.5fr;
+        justify-content: center;
+        align-items: start;
+        gap: var(--lg-space);
+
+        font-size: var(--sm-text);
+        padding: var(--xl-space);
+    }
+
+    /* Content */
+
+    #content ul {
+        gap: var(--sm-space);
+    }
+
+    #content .marker {
+        gap: var(--sm-space);
+        margin-bottom: var(--sm-space);
+    }
+
+    #content .marker .category {
+        padding: var(--xs-space) var(--md-space);
+        border-radius: var(--sm-space);
+
+        font-size: var(--xxs-text);
+    }
+
+    #content .marker .date {
+        display: flex;
+        gap: var(--sm-space);
+        margin: 0 var(--sm-space);
+        font-size: var(--xxs-text);
+    }
+
+    #content .sub_title {
+        margin-top: var(--lg-space);
+        font-size: var(--xl-text);
+        line-height: 1.4;
+    }
+
+    #content .sub_sub_title {
+        margin-top: var(--lg-space);
+
+        font-size: var(--lg-text);
+        line-height: 1.4;
+    }
+
+    #content figure {
+        padding: var(--sm-space);
+    }
+
+    #content figure figcaption {
+        margin-top: var(--xs-space);
+        font-size: var(--xs-text);
+    }
+
+    #content .note {
+        padding: var(--sm-space) var(--lg-space);
+        border-radius: var(--xs-size);
+        border-left: 4px solid var(--primary);
+    }
+
+    /* Aside */
+    aside {
+        position: relative;
+    }
+
+    aside.profile_container {
+        padding: var(--md-space);
+        font-size: var(--xs-text);
+
+        position: sticky;
+        top: var(--xxl-space);
+    }
+
+    aside .profile {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: var(--xs-space);
+    }
+
+    aside .profile::after {
+        right: 5%;
+        bottom: 10%;
+    }
+
+    aside .role {
+        font-size: var(--xss-text);
+    }
+
+    /* Footer */
+    footer {
+        padding: var(--xs-space);
+        font-size: var(--sm-text);
+    }
+}
+
+/* Desktop: 1025px and above */
+@media screen and (min-width: 1025px) {
+
+    /* Header */
+    header nav {
+        padding: 0 var(--xxl-space);
+    }
+
+    /* Header Brand */
+    header .brand_name {
+        font-size: var(--xl-text);
+    }
+
+    header .brand_name span {
+        font-size: calc(var(--xl-text) + .25rem);
+    }
+
+    /* Header Navbar Menu */
+    header .nav_list {
+        gap: var(--xl-space);
+    }
+
+    header .nav_link {
+        font-size: var(--md-text);
+    }
+
+    header .nav_link::after {
+        height: 2px;
+    }
+
+    /* Header Hero */
+    header .hero_container {
+        padding: var(--xxl-size) var(--xxl-space);
+    }
+
+    header .hero_container div {
+        gap: var(--sm-space);
+        font-size: var(--sm-text);
+    }
+
+    header .hero_container div::before {
+        width: var(--xl-size);
+    }
+
+    header .hero_container .title {
+        margin: var(--lg-space) 0;
+        font-size: var(--xl-size);
+        line-height: 1.2;
+    }
+
+    header .hero_container .tagline {
+        margin: var(--xs-space) 0;
+        font-size: var(--lg-text);
+    }
+
+    header .hero_container .btn {
+        padding: var(--sm-space) var(--lg-space);
+        border: 1.5px solid var(--accent);
+        font-size: var(--lg-text);
+    }
+
+    /* Main */
+    main {
+        grid-template-columns: 3fr 1.2fr;
+        gap: var(--xl-space);
+
+        font-size: var(--md-text);
+        padding: var(--xl-space) var(--xxl-space);
+    }
+
+    /* Content */
+    #content .marker {
+        gap: var(--sm-space);
+        margin-bottom: var(--sm-space);
+    }
+
+    #content .marker .category {
+        font-size: var(--xs-text);
+    }
+
+    #content .marker .date {
+        font-size: var(--xs-text);
+        gap: var(--md-space);
+    }
+
+    #content .sub_title {
+        margin-top: var(--lg-space);
+        font-size: var(--xxl-text);
+        line-height: 1.6;
+    }
+
+    #content .sub_sub_title {
+        margin-top: var(--xl-space);
+
+        font-size: var(--xl-text);
+        line-height: 1.6;
+    }
+
+    #content figure figcaption {
+        margin-top: var(--xs-space);
+        font-size: var(--sm-text);
+    }
+
+    #content .note {
+        padding: var(--sm-space) var(--lg-space);
+        border-radius: var(--xxs-size);
+        border-left: 4px solid var(--primary);
+    }
+
+    /* Aside */
+    aside {
+        position: relative;
+        display: inline-block;
+    }
+
+    aside.profile_container {
+        padding: var(--md-space);
+        font-size: var(--xs-text);
+
+        position: sticky;
+        top: var(--xxl-space);
+    }
+
+    aside .profile {
+        width: 100%;
+        max-width: 150px;
+        margin-bottom: var(--xs-space);
+    }
+
+    aside .profile::after {
+        right: 5%;
+        bottom: 10%;
+    }
+
+    aside .role {
+        font-size: var(--xss-text);
+    }
+
+    /* Footer */
+    footer {
+        padding: var(--xs-space);
+        font-size: var(--md-text);
+    }
+}
